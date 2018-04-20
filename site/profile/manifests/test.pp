@@ -1,5 +1,3 @@
 class profile::test {
-  notify {"hello":
-    ensure => present,
-    }
+  notify {"hello":}
 }
